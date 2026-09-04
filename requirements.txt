@@ -1,0 +1,34 @@
+# ============================================================================
+# Unified English-Tamil Multilingual Airline Sentiment Analysis
+# Dependencies
+# ============================================================================
+
+# --- Core ML ---
+torch>=2.0.0
+transformers==4.35.2
+datasets>=2.18.0
+accelerate>=0.27.0
+sentencepiece>=0.1.99
+safetensors>=0.4.0
+
+# --- IndicTrans2 Translation Toolkit ---
+# Install via: pip install git+https://github.com/VarunGumma/IndicTransToolkit
+IndicTransToolkit @ git+https://github.com/VarunGumma/IndicTransToolkit
+
+# --- Data Processing ---
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# --- Visualization ---
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# --- Configuration ---
+pyyaml>=6.0
+
+# --- Application ---
+streamlit>=1.30.0
+
+# --- Progress Bars ---
+tqdm>=4.65.0
